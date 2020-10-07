@@ -1,6 +1,6 @@
 {
   "name": "standard-template",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a template with standard config",
   "main": "index.js",
   "scripts": {
