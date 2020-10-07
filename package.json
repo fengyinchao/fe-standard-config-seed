@@ -71,10 +71,5 @@
   "bugs": {
     "url": "https://github.com/fengyinchao/standard-template/issues"
   },
-  "homepage": "https://github.com/fengyinchao/standard-template#readme",
-  "standard-version": {
-    "skip": {
-      "tag": true
-    }
-  }
+  "homepage": "https://github.com/fengyinchao/standard-template#readme"
 }
