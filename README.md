@@ -2,6 +2,7 @@
 
 这是一个集多数常用配置于一身的前端项目模版，包括
 
+- lerna(please switch to lerna branch)
 - typescript
 - eslint
 - stylelint
