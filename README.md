@@ -30,3 +30,7 @@ git cz
 # step6:generate changelog
 npm run release
 ```
+
+## with lerna
+
+参考文章:[lerna 使用指南](https://www.jianshu.com/p/db3ee301af47)

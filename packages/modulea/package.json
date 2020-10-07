@@ -1,0 +1,19 @@
+{
+  "name": "@fyc/modulea",
+  "version": "1.0.5-alpha.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@fyc/moduleb": "^1.0.4-alpha.0",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.18"
+  }
+}
