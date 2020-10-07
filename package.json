@@ -1,0 +1,80 @@
+{
+  "name": "standard-template",
+  "version": "0.0.0",
+  "description": "a template with standard config",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.app.json",
+    "release": "standard-version"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "eslint",
+      "prettier --write"
+    ],
+    "*.{css,scss}": [
+      "stylelint",
+      "prettier --write"
+    ],
+    "*.html": [
+      "prettier --write"
+    ]
+  },
+  "dependencies": {
+    "tslib": "2.0.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "9.1.2",
+    "commitlint-config-cz": "0.13.2",
+    "cz-customizable": "6.3.0",
+    "commitizen": "4.2.1",
+    "standard-version": "9.0.0",
+    "@types/node": "12.12.62",
+    "@typescript-eslint/eslint-plugin": "4.4.0",
+    "@typescript-eslint/parser": "4.4.0",
+    "eslint": "7.10.0",
+    "eslint-config-airbnb-base": "14.2.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-prettier": "3.1.4",
+    "husky": "4.3.0",
+    "lint-staged": "10.4.0",
+    "prettier": "2.1.2",
+    "stylelint": "13.7.1",
+    "stylelint-config-prettier": "8.0.2",
+    "stylelint-config-standard": "20.0.0",
+    "ts-node": "9.0.0",
+    "typescript": "4.0.3",
+    "wait-on": "5.2.0",
+    "concurrently": "5.3.0",
+    "cross-env": "7.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fengyinchao/standard-template.git"
+  },
+  "keywords": [
+    "standard",
+    "typescript",
+    "eslint",
+    "styleint",
+    "prettier",
+    "editorconfig"
+  ],
+  "author": "fengyinchao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fengyinchao/standard-template/issues"
+  },
+  "homepage": "https://github.com/fengyinchao/standard-template#readme",
+  "standard-version": {
+    "skip": {
+      "tag": true
+    }
+  }
+}
