@@ -1,4 +1,4 @@
-# standard-template
+# fe-standard-config-seed
 
 这是一个集多数常用配置于一身的前端项目模版，包括
 
@@ -16,18 +16,36 @@
 
 ## How To Use
 
+- step1: install
+
 ```shell
-# step1:clone
-git clone https://github.com/fengyinchao/standard-template.git
-# step2:cover .git
-cd standard-template && git init
-# step3:install
-npm i
-# step4:add your code
+npm i -g vigor-cli && vigor create
+```
+
+- step2:select fe-standard-config-seed
+- step3:init
+
+```shell
+git init
+```
+
+- step4:add your code
+
+```shell
 //...
 git add .
-# step5:commit
+```
+
+- step5:commit
+
+```shell
 git cz
-# step6:generate changelog
+```
+
+this will check eslint、stylelint and commitlint
+
+- step6:generate changelog
+
+```shell
 npm run release
 ```

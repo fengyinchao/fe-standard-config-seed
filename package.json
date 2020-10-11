@@ -1,7 +1,7 @@
 {
-  "name": "standard-template",
+  "name": "fe-standard-config-seed",
   "version": "0.0.2",
-  "description": "a template with standard config",
+  "description": "a seed with fe standard config",
   "main": "index.js",
   "scripts": {
     "start": "ts-node-dev src/test.ts",
@@ -57,7 +57,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fengyinchao/standard-template.git"
+    "url": "git+https://github.com/fengyinchao/fe-standard-config-seed.git"
   },
   "keywords": [
     "standard",
@@ -70,7 +70,7 @@
   "author": "fengyinchao",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fengyinchao/standard-template/issues"
+    "url": "https://github.com/fengyinchao/fe-standard-config-seed/issues"
   },
-  "homepage": "https://github.com/fengyinchao/standard-template#readme"
+  "homepage": "https://github.com/fengyinchao/fe-standard-config-seed#readme"
 }
