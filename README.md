@@ -1,3 +1,5 @@
+<div align=center><img src="./logo.png"/></div>
+
 # fe-standard-config-seed
 
 This is a seed project which contains common configs for code format and lint,including:
