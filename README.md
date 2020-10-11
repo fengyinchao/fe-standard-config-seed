@@ -16,27 +16,23 @@
 
 ## How To Use
 
-- step1: install
+- step1: install vigor-cli
 
 ```shell
 npm i -g vigor-cli && vigor create
 ```
 
-- step2:select fe-standard-config-seed
-- step3:init
+- step2:select fe-standard-config-seed template
 
-```shell
-git init
-```
-
-- step4:add your code
+- step3:add your code
 
 ```shell
 //...
 git add .
 ```
 
-- step5:commit
+- step4:commit
+  please use `git cz` insteadof `git commit`
 
 ```shell
 git cz
@@ -44,7 +40,7 @@ git cz
 
 this will check eslint、stylelint and commitlint
 
-- step6:generate changelog
+- step5:generate changelog(if you need)
 
 ```shell
 npm run release
