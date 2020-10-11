@@ -27,12 +27,12 @@ npm i -g vigor-cli && vigor create
 - step3:add your code
 
 ```shell
-//...
 git add .
 ```
 
 - step4:commit
-  please use `git cz` insteadof `git commit`
+
+please use `git cz` insteadof `git commit`
 
 ```shell
 git cz
