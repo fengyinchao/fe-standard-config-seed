@@ -1,6 +1,6 @@
 # fe-standard-config-seed
 
-这是一个集多数常用配置于一身的前端项目模版，包括
+This is a seed project which contains common configs for code format and lint,including:
 
 - lerna(please switch to lerna branch)
 - typescript
