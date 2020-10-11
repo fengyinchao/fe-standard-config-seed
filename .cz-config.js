@@ -5,32 +5,16 @@ module.exports = {
       name: 'feat: A new feature',
     },
     {
-      value: 'issue',
-      name: 'issue: A issue fix',
-    },
-    {
       value: 'fix',
       name: 'fix: A bug fix',
     },
     {
-      value: 'refactor',
-      name: 'refactor: A code change that neither fixes an issue/bug nor adds a feature',
-    },
-    {
-      value: 'perf',
-      name: 'perf: A code change that improves performance',
-    },
-    {
-      value: 'revert',
-      name: 'revert: Revert to a commit',
+      value: 'chore',
+      name: 'chore: Changes to the build process or auxiliary tools and libraries such as documentation generation',
     },
     {
       value: 'style',
       name: 'style: A code change that only effects UI styles, without logic',
-    },
-    {
-      value: 'test',
-      name: 'test: Adding missing tests',
     },
     {
       value: 'format',
@@ -41,8 +25,24 @@ module.exports = {
       name: 'docs: Documentation only changes',
     },
     {
-      value: 'chore',
-      name: 'chore: Changes to the build process or auxiliary tools and libraries such as documentation generation',
+      value: 'refactor',
+      name: 'refactor: A code change that neither fixes an issue/bug nor adds a feature',
+    },
+    {
+      value: 'issue',
+      name: 'issue: A issue fix',
+    },
+    {
+      value: 'perf',
+      name: 'perf: A code change that improves performance',
+    },
+    {
+      value: 'revert',
+      name: 'revert: Revert to a commit',
+    },
+    {
+      value: 'test',
+      name: 'test: Adding missing tests',
     },
   ],
 

@@ -16,6 +16,8 @@ This is a seed project which contains common configs for code format and lint,in
 - standversion
 - license
 
+you can custom your lint rules in such .eslintrc、.stylelintrc、.prettierrc file
+
 ## How To Use
 
 - step1: install vigor-cli
