@@ -20,13 +20,13 @@ you can custom your lint rules in such .eslintrc、.stylelintrc、.prettierrc fi
 
 ## How To Use
 
-- step1: install vigor-cli
+- step1: install [vigor-cli](https://github.com/fengyinchao/vigor-cli)
 
 ```shell
 npm i -g vigor-cli && vigor create
 ```
 
-- step2:select fe-standard-config-seed template
+- step2:select `fe-standard-config-seed` template
 
 - step3:add your code
 
@@ -42,9 +42,9 @@ please use `git cz` insteadof `git commit`
 git cz
 ```
 
-this will check eslint、stylelint and commitlint
+this will check `eslint`、`stylelint` and `commitlint`
 
-- step5:generate changelog(if you need)
+- step5:generate `changelog`(if you need)
 
 ```shell
 npm run release
