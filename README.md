@@ -16,7 +16,7 @@ This is a seed project which contains common configs for code format and lint,in
 - standversion
 - license
 
-you can custom your lint rules in such .eslintrc、.stylelintrc、.prettierrc file
+you can custom your lint rules in .eslintrcjs、.stylelintrcjs、.prettierrcjs file
 
 ## How To Use
 
