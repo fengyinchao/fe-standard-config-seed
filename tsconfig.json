@@ -1,7 +1,23 @@
 {
-  "references": [
-    {
-      "path": "./tsconfig.app.json"
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "module": "commonjs",
+    "target": "es2015",
+    "moduleResolution": "node",
+    "composite": true,
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["node_modules/@types"],
+    "paths": {
+      "common/*": ["src/common/*"]
     }
-  ]
+  },
+  "include": ["**/*"],
+  "exclude": ["./dist","node_modules"]
 }

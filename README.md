@@ -1,51 +1,19 @@
 <div align=center><img src="./logo.png"/></div>
 
-# fe-standard-config-seed
+# fed-standard-config
 
-This is a seed project which contains common configs for code format and lint,including:
+## FED 最新代码规范 2022
 
-- lerna(please switch to lerna branch)
-- typescript
-- eslint
-- stylelint
-- commitlint
-- prettier
-- husky
-- changelog
-- editorconfig
-- standversion
-- license
+[FED 前端代码规范](https://www.yuque.com/fengyinchao/awb51o/ksm7sc/edit)
 
-you can custom your lint rules in .eslintrcjs、.stylelintrcjs、.prettierrcjs file
+## 接入指南
 
-## How To Use
+1、项目目录安装依赖  yarn add --dev @vigor/eslint-config-fed
 
-- step1: install [vigor-cli](https://github.com/fengyinchao/vigor-cli)
+2、安装 vscode 插件：fed-vigor-tools
 
-```shell
-npm i -g vigor-cli && vigor create
-```
+3、然后按下图操作即可：
+<div align=center><img src="./image.png"/></div>
 
-- step2:select `fe-standard-config-seed` template
 
-- step3:add your code
 
-```shell
-git add .
-```
-
-- step4:commit
-
-please use `git cz` insteadof `git commit`
-
-```shell
-git cz
-```
-
-this will check `eslint`、`stylelint` and `commitlint`
-
-- step5:generate `changelog`(if you need)
-
-```shell
-npm run release
-```

@@ -9,4 +9,5 @@ module.exports = {
   bracketSpacing: true, // 对象左右括号里使用空格
   arrowParens: 'avoid', // 箭头函数单参数时不用加括号
   htmlWhitespaceSensitivity: 'css', // html内联元素空格处理，ignore忽略前后空格，css
+  endOfLine: 'lf',
 };

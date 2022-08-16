@@ -1,12 +1,53 @@
 {
-  "name": "fe-standard-config-seed",
-  "version": "0.0.2",
-  "description": "a seed with fe standard config",
-  "main": "index.js",
-  "scripts": {
-    "start": "ts-node-dev src/test.ts",
-    "build": "tsc -p tsconfig.app.json",
-    "release": "standard-version"
+  "name": "@vigor/eslint-config-fed",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fengyinchao/fe-standard-config-seed.git"
+  },
+  "author": "Feng Yinchao",
+  "license": "MIT",
+  "files": [
+    "eslintrc.javascript-base.js",
+    "eslintrc.node.js",
+    "eslintrc.react.js",
+    "eslintrc.vue.js",
+    "eslintrc.rn.js",
+    "eslintrc.typescript-base.js",
+    "js-ts-common.rule.js",
+    ".editorconfig",
+    ".eslintignore",
+    ".gitignore",
+    ".npmrc",
+    ".prettierrc.js",
+    ".prettierignore",
+    "commitlint.config.js"
+  ],
+  "exports": {
+    "./javascript-base": {
+      "require": "./eslintrc.javascript-base.js",
+      "default": "./eslintrc.javascript-base.js"
+    },
+    "./node": {
+      "require": "./eslintrc.node.js",
+      "default": "./eslintrc.node.js"
+    },
+    "./react": {
+      "require": "./eslintrc.react.js",
+      "default": "./eslintrc.react.js"
+    },
+    "./vue": {
+      "require": "./eslintrc.vue.js",
+      "default": "./eslintrc.vue.js"
+    },
+    "./rn": {
+      "require": "./eslintrc.rn.js",
+      "default": "./eslintrc.rn.js"
+    },
+    "./typescript-base": {
+      "require": "./eslintrc.typescript-base.js",
+      "default": "./eslintrc.typescript-base.js"
+    }
   },
   "husky": {
     "hooks": {
@@ -15,62 +56,39 @@
     }
   },
   "lint-staged": {
-    "*.{js,ts}": [
+    "*.{js,ts,jsx,tsx}": [
       "eslint",
       "prettier --write"
     ],
-    "*.{css,scss}": [
-      "stylelint",
+    "*.{css,less,scss}": [
       "prettier --write"
     ],
-    "*.html": [
+    "*.{html,md,json,yaml}": [
       "prettier --write"
     ]
   },
   "dependencies": {
-    "tslib": "2.0.2"
-  },
-  "devDependencies": {
     "@commitlint/cli": "9.1.2",
-    "@types/node": "12.12.62",
-    "@typescript-eslint/eslint-plugin": "4.4.0",
-    "@typescript-eslint/parser": "4.4.0",
-    "commitizen": "4.2.1",
-    "commitlint-config-cz": "0.13.2",
-    "concurrently": "5.3.0",
-    "cross-env": "7.0.2",
-    "cz-customizable": "6.3.0",
-    "eslint": "7.10.0",
-    "eslint-config-airbnb-base": "14.2.0",
+    "@commitlint/config-conventional": "12.1.4",
+    "@vigor/eslint-plugin-fed": "1.0.5",
+    "@typescript-eslint/eslint-plugin": "4.7.0",
+    "@typescript-eslint/parser": "4.7.0",
+    "babel-eslint": "10.1.0",
+    "eslint": "7.32.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-config-prettier": "6.15.0",
+    "eslint-import-resolver-typescript": "2.3.0",
+    "eslint-plugin-deprecation": "1.1.0",
     "eslint-plugin-import": "2.22.1",
-    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-jsdoc": "33.0.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "3.3.1",
+    "eslint-plugin-react": "7.30.1",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-react-native": "^4.0.0",
     "husky": "4.3.0",
     "lint-staged": "10.4.0",
     "prettier": "2.1.2",
-    "standard-version": "9.0.0",
-    "stylelint": "13.7.1",
-    "stylelint-config-prettier": "8.0.2",
-    "stylelint-config-standard": "20.0.0",
-    "ts-node-dev": "1.0.0-pre.63",
-    "typescript": "4.0.3",
-    "wait-on": "5.2.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fengyinchao/fe-standard-config-seed.git"
-  },
-  "keywords": [
-    "standard",
-    "typescript",
-    "eslint",
-    "styleint",
-    "prettier",
-    "editorconfig"
-  ],
-  "author": "fengyinchao",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/fengyinchao/fe-standard-config-seed/issues"
-  },
-  "homepage": "https://github.com/fengyinchao/fe-standard-config-seed#readme"
+    "typescript": "4.1.6"
+  }
 }
