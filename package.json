@@ -1,9 +1,13 @@
 {
-  "name": "@vigor/eslint-config-fed",
-  "version": "1.0.0",
+  "name": "@fengyinchao/eslint-config-fed",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "git@github.com:fengyinchao/fe-standard-config-seed.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "author": "Feng Yinchao",
   "license": "MIT",
@@ -21,7 +25,8 @@
     ".npmrc",
     ".prettierrc.js",
     ".prettierignore",
-    "commitlint.config.js"
+    "commitlint.config.js",
+    "tsconfig.json"
   ],
   "exports": {
     "./javascript-base": {
@@ -70,7 +75,6 @@
   "dependencies": {
     "@commitlint/cli": "9.1.2",
     "@commitlint/config-conventional": "12.1.4",
-    "@vigor/eslint-plugin-fed": "1.0.5",
     "@typescript-eslint/eslint-plugin": "4.7.0",
     "@typescript-eslint/parser": "4.7.0",
     "babel-eslint": "10.1.0",

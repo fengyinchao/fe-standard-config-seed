@@ -12,12 +12,14 @@
     "experimentalDecorators": true,
     "importHelpers": true,
     "resolveJsonModule": true,
+    "jsx": "react-jsxdev",
+    "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
     "typeRoots": ["node_modules/@types"],
     "paths": {
       "common/*": ["src/common/*"]
     }
   },
-  "include": ["**/*"],
+  "include": ["src/*"],
   "exclude": ["./dist","node_modules"]
 }
