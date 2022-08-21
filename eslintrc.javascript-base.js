@@ -21,7 +21,7 @@ module.exports = {
     requireConfigFile: false,
   },
   extends: ['eslint:recommended', 'eslint-config-airbnb-base', 'eslint-config-prettier'],
-  plugins: ['prettier', 'import', 'deprecation', '@vigor/fed'],
+  plugins: ['prettier', 'import', 'deprecation', '@fengyinchao/custom'],
   rules: {
     ...require('./js-ts-common.rule'),
   },

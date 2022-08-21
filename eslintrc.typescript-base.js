@@ -12,7 +12,7 @@ module.exports = {
     project: ['./tsconfig.json'],
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint', 'prettier', '@vigor/fed', 'import', 'deprecation'],
+  plugins: ['@typescript-eslint', 'prettier',  '@fengyinchao/custom', 'import', 'deprecation'],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',

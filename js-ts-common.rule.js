@@ -8,7 +8,7 @@ module.exports = {
   'no-shadow': 'off',
   'max-lines': ['error', 300], // 单文件不超过300行,
   'no-plusplus': 'off',
-  '@vigor/fed/file-header-annotation': 'error',
+  '@fengyinchao/custom/file-header-annotation': 'error',
   'import/extensions': [
     'error',
     'ignorePackages',
